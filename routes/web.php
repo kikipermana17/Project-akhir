@@ -114,8 +114,8 @@ Route::group(['prefix' => 'admin', 'middleware' => ['auth']], function () {
 
 });
 // Route::group(['prefix' => 'admin','pengunjung', 'middleware' => ['auth']], function () {
-Route::resource('/', FrontendController::class);
-Route::get('wisata/{wisata}', [FrontendController::class, 'singleblog']);
+Route::resource('/', App\Http\Controllers\FrontendController::class);
+Route::get('wisata/{wisata}', [App\Http\Controllers\FrontendController::class, 'singleblog']);
 
 Route::get('/about', function () {
     return view('about');

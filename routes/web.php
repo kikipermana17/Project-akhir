@@ -95,7 +95,7 @@ Route::group(['prefix' => 'admin', 'middleware' => ['auth']], function () {
     Route::get('kategori', function () {
         return view('kategori.index');
     })->middleware(['role:admin']);
-    Route::resource('kategori', KategoriController::class);
+    Route::resource('kategori', App\Http\Controllers\KategoriController::class);
 
     // Route::get('wisatawan', function () {
     //     return view('wisatawan.index');
@@ -105,12 +105,12 @@ Route::group(['prefix' => 'admin', 'middleware' => ['auth']], function () {
     Route::get('biro', function () {
         return view('biro.index');
     })->middleware(['role:admin']);
-    Route::resource('biro', BiroController::class);
+    Route::resource('biro', App\Http\Controllers\BiroController::class);
 
     Route::get('wisata', function () {
         return view('wisata.index');
     })->middleware(['role:admin']);
-    Route::resource('wisata', WisataController::class);
+    Route::resource('wisata', App\Http\Controllers\WisataController::class);
 
 });
 // Route::group(['prefix' => 'admin','pengunjung', 'middleware' => ['auth']], function () {

@@ -74,8 +74,10 @@
                                         <input type="text" class="form-control" name="nama_wisata">
                                         <label>Alamat</label>
                                         <input type="text" class="form-control" name="alamat">
-                                        <label>Deskripsi</label>
-                                        <input type="textarea" class="form-control" name="deskripsi">
+                                        <br>
+                                        <label>Deskripsi</label><br>
+                                        <textarea rows="4" , cols="54" id="deskripsi" name="deskripsi" style="resize:none, "></textarea>
+                                        <br>
                                         <label>Faslitas</label>
                                         <input type="text" class="form-control" name="fasilitas">
                                         <label>wisata Id</label>

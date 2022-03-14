@@ -99,7 +99,7 @@
                     </div>
                 </div>
                 {{-- DATA WISATA --}}
-                {{-- @foreach ($wisata as $data)
+{{-- @foreach ($wisata as $data)
                             <li class="portfolio-item">
                                 <img src="{{ $data->image() }}" style="width:370px; height:370px;"
                                     class="img-responsive" alt="{{ $data->deskripsi }}">
@@ -114,11 +114,11 @@
                                 </ul>
                             </li>
                         @endforeach --}}
-                {{-- //DATA WISATA --}}
-                {{-- DATA WISATA --}}
-                 {{-- @foreach ($wisata as $data) --}}
-                    {{-- <div class="row mb-5 align-items-center"> --}}
-                    {{-- <div id="portfolio-grid" class="row no-gutter" data-aos="fade-up" data-aos-delay="200">
+{{-- //DATA WISATA --}}
+{{-- DATA WISATA --}}
+{{-- @foreach ($wisata as $data) --}}
+{{-- <div class="row mb-5 align-items-center"> --}}
+{{-- <div id="portfolio-grid" class="row no-gutter" data-aos="fade-up" data-aos-delay="200">
                         <div class="item web col-sm-6 col-md-4 col-lg-4 mb-4">
                             <a href="#" class="item-wrap fancybox">
                                 <div class="work-info">
@@ -127,13 +127,13 @@
                                 </div>
                                 <img class="img-fluid" src="{{ $data->image() }}" style="width:300px;
                                     height:300px;" class="img-responsive">
-                            </a> 
+                            </a>
                         </div> --}}
 
-                        {{-- </div> --}}
-                {{-- @endforeach --}}
-                {{-- DATA WISATA --}}
-                {{-- <div class="item photography col-sm-6 col-md-4 col-lg-4 mb-4">
+{{-- </div> --}}
+{{-- @endforeach --}}
+{{-- DATA WISATA --}}
+{{-- <div class="item photography col-sm-6 col-md-4 col-lg-4 mb-4">
                         <a href="work-single.html" class="item-wrap fancybox">
                             <div class="work-info">
                                 <h3>Build Indoo</h3>
@@ -142,7 +142,7 @@
                             <img class="img-fluid" src="{{ asset('/tampilan/assets/img/img_2.jpg') }}">
                         </a>
                     </div> --}}
-                {{-- <div class="item branding col-sm-6 col-md-4 col-lg-4 mb-4">
+{{-- <div class="item branding col-sm-6 col-md-4 col-lg-4 mb-4">
                         <a href="work-single.html" class="item-wrap fancybox">
                             <div class="work-info">
                                 <h3>Cocooil</h3>
@@ -178,12 +178,13 @@
                             <img class="img-fluid" src="{{ asset('/tampilan/assets/img/img_6.jpg') }}">
                         </a>
                     </div> --}}
-            </div>
-            </div>
-        </section><!-- End  Works Section -->
+{{-- </div> --}}
+{{-- </div> --}}
+{{-- </section> --}}
+<!-- End  Works Section -->
 
-        <!-- ======= Clients Section ======= -->
-        {{-- <section class="section">
+<!-- ======= Clients Section ======= -->
+{{-- <section class="section">
             <div class="container">
                 <div class="row justify-content-center text-center mb-4">
                     <div class="col-5">
@@ -227,8 +228,8 @@
             </div>
         </section><!-- End Clients Section --> --}}
 
-        <!-- ======= Services Section ======= -->
-        {{-- <section class="section services">
+<!-- ======= Services Section ======= -->
+{{-- <section class="section services">
             <div class="container">
                 <div class="row justify-content-center text-center mb-4">
                     <div class="col-5">
@@ -290,8 +291,8 @@
             </div>
         </section><!-- End Services Section --> --}}
 
-        <!-- ======= Testimonials Section ======= -->
-        {{-- <section class="section pt-0">
+<!-- ======= Testimonials Section ======= -->
+{{-- <section class="section pt-0">
             <div class="container">
 
                 <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
@@ -334,25 +335,25 @@
             </div>
         </section><!-- End Testimonials Section --> --}}
 
-    </main><!-- End #main -->
+</main><!-- End #main -->
 
-    <!-- ======= Footer ======= -->
-    {{-- <footer class="footer" role="contentinfo">
+<!-- ======= Footer ======= -->
+{{-- <footer class="footer" role="contentinfo">
         <div class="container">
             <div class="row">
                 <div class="col-sm-6">
                     <p class="mb-1">&copy; Copyright MyPortfolio. All Rights Reserved</p>
                     <div class="credits"> --}}
-                        <!--
+<!--
             All the links in the footer should remain intact.
             You can delete the links only if you purchased the pro version.
             Licensing information: https://bootstrapmade.com/license/
             Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=MyPortfolio
           -->
-                        {{-- Designed by <a href="{{ asset('/tampilan/https://bootstrapmade.com/') }}">BootstrapMade</a>
+{{-- Designed by <a href="{{ asset('/tampilan/https://bootstrapmade.com/') }}">BootstrapMade</a>
                     </div> --}}
-                {{-- </div> --}}
-                {{-- <div class="col-sm-6 social text-md-end">
+{{-- </div> --}}
+{{-- <div class="col-sm-6 social text-md-end">
                     <a href="#"><span class="bi bi-twitter"></span></a>
                     <a href="#"><span class="bi bi-facebook"></span></a>
                     <a href="#"><span class="bi bi-instagram"></span></a>
@@ -362,18 +363,18 @@
         </div>
     </footer> --}}
 
-    {{-- <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+{{-- <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
             class="bi bi-arrow-up-short"></i></a> --}}
 
-    <!-- Vendor JS Files -->
-    {{-- <script src="{{ asset('/tampilan/assets/vendor/aos/aos.js') }}"></script>
+<!-- Vendor JS Files -->
+{{-- <script src="{{ asset('/tampilan/assets/vendor/aos/aos.js') }}"></script>
     <script src="{{ asset('/tampilan/assets/vendor/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
     <script src="{{ asset('/tampilan/assets/vendor/isotope-layout/isotope.pkgd.min.js') }}"></script>
     <script src="{{ asset('/tampilan/assets/vendor/swiper/swiper-bundle.min.js') }}"></script>
     <script src="{{ asset('/tampilan/assets/vendor/php-email-form/validate.js') }}"></script> --}}
 
-    <!-- Template Main JS File -->
-    {{-- <script src="{{ asset('/tampilan/assets/js/main.js') }}"></script>
+<!-- Template Main JS File -->
+{{-- <script src="{{ asset('/tampilan/assets/js/main.js') }}"></script>
 
 </body> --}}
 

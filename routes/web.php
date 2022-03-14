@@ -4,7 +4,6 @@ use App\http\Controllers\BiroController;
 use App\http\Controllers\FrontendController;
 use App\http\Controllers\KategoriController;
 use App\http\Controllers\WisataController;
-use App\http\Controllers\WisatawanController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -75,13 +74,12 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 //             return view('layouts.admin');
 //         })->middleware(['role:admin']);
 
-
 Route::get('layouts', function () {
     return view('layouts.admin');
 });
-Route::get('layouts', function () {
-    return view('layouts.frontend');
-});
+// Route::get('layouts', function () {
+//     return view('layouts.frontend');
+// });
 Route::get('layouts', function () {
     return view('layouts.front');
 });
@@ -114,22 +112,20 @@ Route::group(['prefix' => 'admin', 'middleware' => ['auth']], function () {
     })->middleware(['role:admin']);
     Route::resource('wisata', WisataController::class);
 
-
-
 });
 // Route::group(['prefix' => 'admin','pengunjung', 'middleware' => ['auth']], function () {
 Route::resource('/', FrontendController::class);
 Route::get('wisata/{wisata}', [FrontendController::class, 'singleblog']);
 
-Route::get('/about', function(){
+Route::get('/about', function () {
     return view('about');
 });
 
-Route::get('/contact', function(){
+Route::get('/contact', function () {
     return view('contact');
 });
 
-Route::get('layouts', function(){
+Route::get('layouts', function () {
     return view('layouts.front');
 });
 
@@ -139,7 +135,6 @@ Route::get('layouts', function(){
 
 // });
 // Route::resource('/', FrontendController::class);
-
 
 // Route::resource('/', DashboardController::class);
 

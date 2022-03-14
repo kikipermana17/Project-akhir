@@ -19,9 +19,7 @@
 
     <!-- Custom styles for this template-->
     <link href="{{ asset('/assets/css/sb-admin-2.min.css') }}" rel="stylesheet">
-    <link rel="stylesheet" href="{{ asset('DataTables/datatables.css') }}">
-    <link rel="stylesheet" href="https://cdn.datatables.net/1.11.5/css/jquery.dataTables.min.css">
-    <script src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.min.js" defer></script>
+
 </head>
 
 <body id="page-top">
@@ -68,7 +66,7 @@
                             <!-- /.panel-heading -->
                             <div class="panel-body">
                                 <div class="table-responsive table-bordered">
-                                    <table class="table myTable" id="table_id">
+                                    <table class="table" id="table_id">
                                         <thead>
                                             <tr>
                                                 <th>No</th>
@@ -163,12 +161,7 @@
     <!-- Page level custom scripts -->
     <script src="{{ asset('/assets/js/demo/chart-area-demo.js') }}"></script>
     <script src="{{ asset('/assets/js/demo/chart-pie-demo.js') }}"></script>
-    <script>
-        $(document).ready(function() {
-            $('#datatabel').DataTable();
-        });
-    </script>
-    <script src="{{ asset('DataTables/datatables.min.js') }}"></script>
+
 </body>
 
 </html>

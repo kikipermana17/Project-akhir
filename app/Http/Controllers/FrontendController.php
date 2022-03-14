@@ -8,11 +8,11 @@ use App\Models\Wisata;
 
 class FrontendController extends Controller
 {
-    // public function index()
-    // {
-    //     $wisata = Wisata::all();
-    //     return view('layouts.frontend', compact('wisata'));
-    // }
+    public function data()
+    {
+        $wisata = Wisata::all();
+        return view('layouts.frontend', compact('wisata'));
+    }
 
     public function index()
     {

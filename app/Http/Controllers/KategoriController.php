@@ -102,6 +102,8 @@ class KategoriController extends Controller
         // }
 
         $kategori = new Kategori;
+        $kategori = Kategori::findOrFail($id);
+
         $kategori->nama = $request->nama;
         $kategori->slug = Str::slug($request->nama, '-');
         $kategori->save();
